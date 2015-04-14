@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160CE8A4F5CCEAB6096581D4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B72DABE368D3514794008AE /* libPods.a */; };
+		388AD6E41ADBB3E1009B094D /* movie.png in Resources */ = {isa = PBXBuildFile; fileRef = 388AD6E31ADBB3E1009B094D /* movie.png */; };
+		388AD6E61ADBB40C009B094D /* dvd.png in Resources */ = {isa = PBXBuildFile; fileRef = 388AD6E51ADBB40C009B094D /* dvd.png */; };
+		388AD6E81ADBBE7A009B094D /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388AD6E71ADBBE7A009B094D /* GridViewController.swift */; };
+		388AD6EA1ADBC313009B094D /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388AD6E91ADBC313009B094D /* MovieCollectionViewCell.swift */; };
+		389EA38A1ADC8F3F006A10FD /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389EA3891ADC8F3F006A10FD /* NavController.swift */; };
+		38A195A81ADA7FA800E130D1 /* iconmonstr-error-3-icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A195A71ADA7FA800E130D1 /* iconmonstr-error-3-icon-256.png */; };
+		38C075801AD64A42007416FD /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0757F1AD64A42007416FD /* MovieDetailViewController.swift */; };
 		38E96A991AD4C79D006F589E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E96A981AD4C79D006F589E /* AppDelegate.swift */; };
 		38E96A9B1AD4C79D006F589E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E96A9A1AD4C79D006F589E /* ViewController.swift */; };
 		38E96A9E1AD4C79D006F589E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E96A9C1AD4C79D006F589E /* Main.storyboard */; };
 		38E96AA01AD4C79D006F589E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E96A9F1AD4C79D006F589E /* Images.xcassets */; };
 		38E96AA31AD4C79D006F589E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38E96AA11AD4C79D006F589E /* LaunchScreen.xib */; };
 		38E96AAF1AD4C79D006F589E /* tomoatoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E96AAE1AD4C79D006F589E /* tomoatoesTests.swift */; };
+		38E96AB91AD4C94B006F589E /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E96AB81AD4C94B006F589E /* MoviesViewController.swift */; };
+		38E96ABB1AD4CCFD006F589E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E96ABA1AD4CCFD006F589E /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		388AD6E31ADBB3E1009B094D /* movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = movie.png; path = ../../../../Downloads/movie.png; sourceTree = "<group>"; };
+		388AD6E51ADBB40C009B094D /* dvd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dvd.png; path = ../../../../Downloads/dvd.png; sourceTree = "<group>"; };
+		388AD6E71ADBBE7A009B094D /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridViewController.swift; path = ../GridViewController.swift; sourceTree = "<group>"; };
+		388AD6E91ADBC313009B094D /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		389EA3891ADC8F3F006A10FD /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		38A195A71ADA7FA800E130D1 /* iconmonstr-error-3-icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconmonstr-error-3-icon-256.png"; path = "../../../../Downloads/iconmonstr-error-3-icon-256.png"; sourceTree = "<group>"; };
+		38C0757F1AD64A42007416FD /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		38E56DEE1AD4D32700DDC007 /* tomoatoes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tomoatoes-Bridging-Header.h"; sourceTree = "<group>"; };
 		38E96A931AD4C79D006F589E /* tomoatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomoatoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E96A971AD4C79D006F589E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38E96A981AD4C79D006F589E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +54,11 @@
 		38E96AA81AD4C79D006F589E /* tomoatoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomoatoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E96AAD1AD4C79D006F589E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38E96AAE1AD4C79D006F589E /* tomoatoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomoatoesTests.swift; sourceTree = "<group>"; };
+		38E96AB81AD4C94B006F589E /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		38E96ABA1AD4CCFD006F589E /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		3B72DABE368D3514794008AE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		424DFDCC628CAB0DA4C7BDCC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		691EE1493075988B1E11B030 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160CE8A4F5CCEAB6096581D4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3222700B4A7468E24BE18137 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				424DFDCC628CAB0DA4C7BDCC /* Pods.debug.xcconfig */,
+				691EE1493075988B1E11B030 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		38E96A8A1AD4C79D006F589E = {
 			isa = PBXGroup;
 			children = (
 				38E96A951AD4C79D006F589E /* tomoatoes */,
 				38E96AAB1AD4C79D006F589E /* tomoatoesTests */,
 				38E96A941AD4C79D006F589E /* Products */,
+				3222700B4A7468E24BE18137 /* Pods */,
+				F05960EE31E3CAA94437C245 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +112,22 @@
 		38E96A951AD4C79D006F589E /* tomoatoes */ = {
 			isa = PBXGroup;
 			children = (
+				388AD6E71ADBBE7A009B094D /* GridViewController.swift */,
+				388AD6E51ADBB40C009B094D /* dvd.png */,
+				388AD6E31ADBB3E1009B094D /* movie.png */,
+				38A195A71ADA7FA800E130D1 /* iconmonstr-error-3-icon-256.png */,
 				38E96A981AD4C79D006F589E /* AppDelegate.swift */,
 				38E96A9A1AD4C79D006F589E /* ViewController.swift */,
 				38E96A9C1AD4C79D006F589E /* Main.storyboard */,
 				38E96A9F1AD4C79D006F589E /* Images.xcassets */,
 				38E96AA11AD4C79D006F589E /* LaunchScreen.xib */,
 				38E96A961AD4C79D006F589E /* Supporting Files */,
+				38E96AB81AD4C94B006F589E /* MoviesViewController.swift */,
+				38C0757F1AD64A42007416FD /* MovieDetailViewController.swift */,
+				389EA3891ADC8F3F006A10FD /* NavController.swift */,
+				38E96ABA1AD4CCFD006F589E /* MovieCell.swift */,
+				388AD6E91ADBC313009B094D /* MovieCollectionViewCell.swift */,
+				38E56DEE1AD4D32700DDC007 /* tomoatoes-Bridging-Header.h */,
 			);
 			path = tomoatoes;
 			sourceTree = "<group>";
@@ -112,6 +157,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F05960EE31E3CAA94437C245 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B72DABE368D3514794008AE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38E96AB21AD4C79D006F589E /* Build configuration list for PBXNativeTarget "tomoatoes" */;
 			buildPhases = (
+				ADF1AC7109DFCDDA41826401 /* Check Pods Manifest.lock */,
 				38E96A8F1AD4C79D006F589E /* Sources */,
 				38E96A901AD4C79D006F589E /* Frameworks */,
 				38E96A911AD4C79D006F589E /* Resources */,
+				3C381086A15556EBE6A398A9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,7 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388AD6E61ADBB40C009B094D /* dvd.png in Resources */,
 				38E96A9E1AD4C79D006F589E /* Main.storyboard in Resources */,
+				388AD6E41ADBB3E1009B094D /* movie.png in Resources */,
+				38A195A81ADA7FA800E130D1 /* iconmonstr-error-3-icon-256.png in Resources */,
 				38E96AA31AD4C79D006F589E /* LaunchScreen.xib in Resources */,
 				38E96AA01AD4C79D006F589E /* Images.xcassets in Resources */,
 			);
@@ -207,13 +265,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C381086A15556EBE6A398A9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADF1AC7109DFCDDA41826401 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38E96A8F1AD4C79D006F589E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				38E96A9B1AD4C79D006F589E /* ViewController.swift in Sources */,
+				38C075801AD64A42007416FD /* MovieDetailViewController.swift in Sources */,
+				388AD6E81ADBBE7A009B094D /* GridViewController.swift in Sources */,
 				38E96A991AD4C79D006F589E /* AppDelegate.swift in Sources */,
+				388AD6EA1ADBC313009B094D /* MovieCollectionViewCell.swift in Sources */,
+				38E96ABB1AD4CCFD006F589E /* MovieCell.swift in Sources */,
+				38E96AB91AD4C94B006F589E /* MoviesViewController.swift in Sources */,
+				389EA38A1ADC8F3F006A10FD /* NavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,21 +431,28 @@
 		};
 		38E96AB31AD4C79D006F589E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424DFDCC628CAB0DA4C7BDCC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = tomoatoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tomoatoes/tomoatoes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		38E96AB41AD4C79D006F589E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691EE1493075988B1E11B030 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = tomoatoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tomoatoes/tomoatoes-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +509,7 @@
 				38E96AB41AD4C79D006F589E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38E96AB51AD4C79D006F589E /* Build configuration list for PBXNativeTarget "tomoatoesTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +518,7 @@
 				38E96AB71AD4C79D006F589E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
